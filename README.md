@@ -6,7 +6,7 @@
 
 ---
 
-## 🧐 About
+### 🧐 About
 
 We are a group of senior programmers developing an application for our Software Engineering I course.
 
@@ -18,7 +18,7 @@ Potassium and water are the two main nutrients needed for adequate muscle functi
 
 ---
 
-## 🚀 Deployment
+### 🚀 Deployment
 
 A step by step series of examples that tell you how to get a development env running.
 
@@ -29,7 +29,7 @@ A future addition of installing our application
 ```
 ---
 
-## ⛏️ Built Using
+### ⛏️ Built Using
 
 - [Express](https://expressjs.com/) - Server Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
@@ -38,7 +38,7 @@ A future addition of installing our application
 
 ---
 
-## ✍️ Authors <a name = "authors"></a>
+### ✍️ Authors <a name = "authors"></a>
 
 - [@Jordan Parker](https://github.com/jordanparker32) - Project Manager, Back-End Developer
 - [@Colby Peyton](https://github.com/ColbPeyton) - Development Lead, Front-End Developer
