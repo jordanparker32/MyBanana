@@ -42,5 +42,5 @@ A future addition of installing our application
 
 - [@Jordan Parker](https://github.com/jordanparker32) - Project Manager, Back-End Developer
 - [@Colby Peyton](https://github.com/ColbPeyton) - Front-End Developer Lead
-- [@Josh Samuel](https://github.com/D-Andre20) - Back-End Developor 
-- [@Aaditya Kharel](https://github.com/Aaditya-Kharel) - Front-End Developer
+- [@Josh Samuel](https://github.com/D-Andre20) - Front-End Developer 
+- [@Aaditya Kharel](https://github.com/Aaditya-Kharel) - Back-End Developer
