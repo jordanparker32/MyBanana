@@ -1,4 +1,9 @@
+.Silhouette{
+    align-items: center;
+    justify-content: center;
+    
+}
 #Silhouette-Img{
-    width:  35%;
-    margin-top: 5% ;
+    width:  100%;
+    margin-top: 5%;
 }

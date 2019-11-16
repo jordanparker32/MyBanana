@@ -1,2 +1,12 @@
-.Water{
-}
+.Water-Img{
+    width: 18%;
+    margin: auto;
+    margin-right: 0;
+ 
+ }
+ 
+ .Water{
+    height: 100%;
+    width: 100%;
+    padding-top: 30%;
+ }

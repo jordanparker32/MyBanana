@@ -1,6 +1,11 @@
+.Banana-Img{
+   width: 18%;
+   margin: auto;
+   margin-left: 0;
+}
+
 .Banana{
-   width: 8%;
-   display: flex;
-   flex-direction: column-reverse;
-   float: right;
+  height: 100%;
+  width: 100%;
+  padding-top: 30%;
 }
