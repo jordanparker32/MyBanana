@@ -1,3 +1,38 @@
 .Display{
    
 }
+#Display-Img{
+    width: 500px;
+}
+.Display-Banana{
+}
+
+#Display-Logo{
+    width: 25%;
+    position: absolute;
+    left: 0;
+    margin-left: 15% ;
+    margin-top: 3%;
+}
+
+#Display-AccountIcon{
+    width: 8%;
+    position: absolute;
+    right: 0;
+    margin-right: 25% ;
+    margin-top: 3%;
+}
+
+#Display-FullHealthIcon{
+    width: 8%;
+    position: absolute;
+    left: 0;
+    margin-left: 35% ;
+}
+
+#Display-AddBananaIcon{
+    width: 8%;
+    position: absolute;
+    right: 0;
+    margin-right: 35% ;
+}
