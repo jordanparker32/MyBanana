@@ -25,18 +25,20 @@ class Display extends Component{
             addBananaOverlayOn: false
         }
         this.handleUpdateClick = this.handleUpdateClick.bind(this);
-        this.updateBanana = this.updateBanana.bind(this);
+        this.updateTotals = this.updateTotals.bind(this);
         this.handleAccountClick = this.handleAccountClick.bind(this);
         this.showAccountInfo = this.showAccountInfo.bind(this);
         this.handleFullHealthClick = this.handleFullHealthClick.bind(this);
         this.showFullHealthInfo = this.showFullHealthInfo.bind(this);
         this.handleAddBananaClick = this.handleAddBananaClick.bind(this);
         this.showAddBanana = this.showAddBanana.bind(this);
+        this.disableShowAddBanana = this.disableShowAddBanana.bind(this);
+        this.disableShowFullHealthInformation = this.disableShowFullHealthInformation.bind(this);
 
     }
 
     handleUpdateClick(){
-        this.updateBanana()
+        this.updateTotals()
     }
     handleAccountClick(){
         this.showAccountInfo();
@@ -62,14 +64,26 @@ class Display extends Component{
         this.setState({
             addBananaOverlayOn: true
         })
-        this.updateBanana();
     }
 
-    updateBanana(){
-        let update =  this.state.bananaCurrent + 1;
+    disableShowAddBanana(){
         this.setState({
-            bananaCurrent: update,
-            waterCurrent: update
+            addBananaOverlayOn: false
+        })
+    }
+    disableShowFullHealthInformation(){
+        this.setState({
+            fullHealthInforOverlayOn: false
+        })
+    }
+
+    updateTotals(banana, water){
+        let currentbanana = this.state.bananaCurrent + banana;
+        let currentWater = this.state.waterCurrent + water;
+
+        this.setState({
+            bananaCurrent: currentbanana,
+            waterCurrent: currentWater
         })
     }
 
@@ -77,6 +91,7 @@ class Display extends Component{
     render(){
         return(
             <div className="Display">
+            {console.log(this.state.bananaCurrent , this.state.waterCurrent)}
             <img id="Display-Logo" alt="Logo" src={logo} />
             <input id="Display-AccountIcon" type="image" alt="Account Icon" src={AccountInfoIcon} onClick={this.handleAccountClick}/>  
             {this.state.accountInfoOverlayOn && 
@@ -85,30 +100,47 @@ class Display extends Component{
                 </div>
             }
 
+            <div className="Display-Column">
+                <Water waterCurrent={this.state.waterCurrent} waterTotal={this.props.waterTotal}/>
+                <div className="Display-Column-Hidden">
+                    <p>water</p>
+                    </div>
+            </div>
+            <div className="Display-Column Display-Column-Silhouette">
             <Silhouette  
                 bananaCurrent={this.state.bananaCurrent} 
                 bananaTotal={this.state.bananaTotal}   
                 waterCurrent={this.state.waterCurrent} 
                 waterTotal={this.props.waterTotal}
             />
+            </div>
+            <div className="Display-Column">
+                    <Banana bananaCurrent={this.state.bananaCurrent} bananaTotal={this.state.bananaTotal}/>
+                    <div className="Display-Column-Hidden">
+
+                    </div>
+            </div>
+
+
+
+
+            
             {/* Show FullHealthInformation based on state */}
+            <div className="Display-Buttons">
             <input id="Display-FullHealthIcon" type="image" alt="Account Icon" src={FullHealthIcon} onClick={this.handleFullHealthClick}/>
             {this.state.fullHealthInforOverlayOn && 
                 <div>
                 {console.log("full health")}
-                <FullHealthInformation bananaCurrent={this.state.bananaCurrent}/>
+                <FullHealthInformation bananaCurrent={this.state.bananaCurrent} disableShowFullHealthInformation={this.disableShowFullHealthInformation}/>
                 </div>
             }
             <input id="Display-AddBananaIcon" type="image" alt="Account Icon" src={AddBananaIcon} onClick={this.handleAddBananaClick}/>
             {this.state.addBananaOverlayOn && 
                 <div>
-                <AddBanana />
+                <AddBanana updateTotals={this.updateTotals} disableShowAddBanana={this.disableShowAddBanana}/>
                 </div>
             }
-                <div className="Display-Banana">
-                    <Banana bananaCurrent={this.state.bananaCurrent} bananaTotal={this.state.bananaTotal}/>
-                </div>
-            <Water waterCurrent={this.state.waterCurrent} waterTotal={this.props.waterTotal}/>
+            </div>
             
             </div>
         )
