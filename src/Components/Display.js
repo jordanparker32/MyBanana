@@ -22,7 +22,8 @@ class Display extends Component{
             waterTotal: 0,
             accountInfoOverlayOn: false,
             fullHealthInforOverlayOn: false,
-            addBananaOverlayOn: false
+            addBananaOverlayOn: false,
+            username: "myBanana"
         }
         this.handleUpdateClick = this.handleUpdateClick.bind(this);
         this.updateTotals = this.updateTotals.bind(this);
@@ -34,6 +35,7 @@ class Display extends Component{
         this.showAddBanana = this.showAddBanana.bind(this);
         this.disableShowAddBanana = this.disableShowAddBanana.bind(this);
         this.disableShowFullHealthInformation = this.disableShowFullHealthInformation.bind(this);
+        this.disableShowAccountInfo = this.disableShowAccountInfo.bind(this);
 
     }
 
@@ -54,16 +56,22 @@ class Display extends Component{
         this.setState({
             accountInfoOverlayOn: true
         })
+        this.disableShowAddBanana();
+        this.disableShowFullHealthInformation();
     }
     showFullHealthInfo(){
         this.setState({
             fullHealthInforOverlayOn: true
         })
+        this.disableShowAddBanana();
+        this.disableShowAccountInfo();
     }
     showAddBanana(){
         this.setState({
             addBananaOverlayOn: true
         })
+        this.disableShowAccountInfo();
+        this.disableShowFullHealthInformation();
     }
 
     disableShowAddBanana(){
@@ -74,6 +82,11 @@ class Display extends Component{
     disableShowFullHealthInformation(){
         this.setState({
             fullHealthInforOverlayOn: false
+        })
+    }
+    disableShowAccountInfo(){
+        this.setState({
+            accountInfoOverlayOn : false
         })
     }
 
@@ -96,7 +109,14 @@ class Display extends Component{
             <input id="Display-AccountIcon" type="image" alt="Account Icon" src={AccountInfoIcon} onClick={this.handleAccountClick}/>  
             {this.state.accountInfoOverlayOn && 
                 <div>
-                <AccountInformation />
+                <AccountInformation 
+                    username={this.state.username} 
+                    bananaCurrent={this.state.bananaCurrent} 
+                    bananaTotal={this.state.bananaTotal}
+                    waterCurrent={this.state.waterCurrent}
+                    waterTotal={this.state.waterTotal}
+                    disableShowAccountInfo={this.disableShowAccountInfo}
+                    />
                 </div>
             }
 
@@ -131,7 +151,7 @@ class Display extends Component{
             {this.state.fullHealthInforOverlayOn && 
                 <div>
                 {console.log("full health")}
-                <FullHealthInformation bananaCurrent={this.state.bananaCurrent} disableShowFullHealthInformation={this.disableShowFullHealthInformation}/>
+                <FullHealthInformation bananaCurrent={this.state.bananaCurrent} waterCurrent={this.state.waterCurrent} disableShowFullHealthInformation={this.disableShowFullHealthInformation}/>
                 </div>
             }
             <input id="Display-AddBananaIcon" type="image" alt="Account Icon" src={AddBananaIcon} onClick={this.handleAddBananaClick}/>

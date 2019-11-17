@@ -16,7 +16,7 @@
     display: block;
     border: 4px solid #4D9DE0;
     /* rgb(49, 59, 78, 0.9) */
-    
+    border-radius: 25px;
 }
 #AddBanana-Banana{
     width: 20%;
