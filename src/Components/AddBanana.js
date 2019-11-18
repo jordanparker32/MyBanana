@@ -1,8 +1,11 @@
 import React,{Component} from 'react';
 import '../Stylesheets/AddBanana.css';
-import AddBananaIcon from '../Assets/Banana Button.png'
+import AddBananaIcon from '../Assets/Banana Button.png';
+import Add from '../Assets/Smol Icons-10.png';
+import Minus from '../Assets/Smol Icons-12.png';
 import banana from '../Assets/Banana icon.png';
-import water from '../Assets/Water Drop Icon.png'
+import water from '../Assets/Water Drop Icon.png';
+import CloseOverlay from '../Assets/Smol Icons-11.png';
 
 
 class AddBanana extends Component{
@@ -87,21 +90,21 @@ class AddBanana extends Component{
 
         return(
             <div className="AddBanana">
-            <input id="AddBanana-CloseOverlay" type="image" alt="X" src={AddBananaIcon} onClick={this.handleCloseOverlay}/>
+            <input id="AddBanana-CloseOverlay" type="image" alt="X" src={CloseOverlay} onClick={this.handleCloseOverlay}/>
                 <img id="AddBanana-Banana" src={banana} alt='banana icon' />
                 <h3>Add Bananas Consumed</h3>
             <h2>{this.state.currentBanana}</h2>
             <div className="AddBanana-UpdateBanana">
-            <input id="AddBanana-UpdateBanana-Add" type="image" alt="Account Icon" src={AddBananaIcon} onClick={this.handleUpdateBananaAdd}/>
-            <input id="AddBanana-UpdateBanana-Minus" type="image" alt="Account Icon" src={AddBananaIcon} onClick={this.handleUpdateBananaMinus}/>
+            <input id="AddBanana-UpdateBanana-Add" type="image" alt="Account Icon" src={Add} onClick={this.handleUpdateBananaAdd}/>
+            <input id="AddBanana-UpdateBanana-Minus" type="image" alt="Account Icon" src={Minus} onClick={this.handleUpdateBananaMinus}/>
             </div>
 
             <img id="AddBanana-Water" src={water} alt='Water icon' />
                 <h3>Add Cups of Water Consumed</h3>
             <h2>{this.state.currentWater}</h2>
                 <div className="AddBanana-UpdateWater">
-                    <input id="AddBanana-UpdateWater-Add" type="image" alt="Account Icon" src={AddBananaIcon} onClick={this.handleUpdateWaterAdd}/>
-                    <input id="AddBanana-UpdateWater-Minus" type="image" alt="Account Icon" src={AddBananaIcon} onClick={this.handleUpdateWaterMinus}/>
+                    <input id="AddBanana-UpdateWater-Add" type="image" alt="Account Icon" src={Add} onClick={this.handleUpdateWaterAdd}/>
+                    <input id="AddBanana-UpdateWater-Minus" type="image" alt="Account Icon" src={Minus} onClick={this.handleUpdateWaterMinus}/>
                 </div>
                 <div>
                 <button onClick={this.handleUpdateTotals}>Submit</button>

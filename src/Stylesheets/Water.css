@@ -10,3 +10,18 @@
     width: 100%;
     padding-top: 30%;
  }
+
+ @media (max-width: 600px) {
+   .Water-Img{
+      width: 50%;
+      margin: auto;
+      margin-left: 0;
+      float: left;
+   }
+   
+   .Water{
+      height: 100%;
+      width: 100%;
+      padding-top: 200px;
+   }
+}

@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import '../Stylesheets/AccountInformation.css';
-import closeOverlayIcon from '../Assets/Heart Button.png'
+import closeOverlayIcon from '../Assets/Smol Icons-11.png'
 
 class AccountInformation extends Component{
     constructor(props){

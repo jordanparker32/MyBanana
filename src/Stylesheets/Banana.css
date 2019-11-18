@@ -9,3 +9,19 @@
   width: 100%;
   padding-top: 30%;
 }
+
+
+@media (max-width: 600px) {
+  .Banana-Img{
+     width: 50%;
+     margin: auto;
+     margin-right: 0;
+     float: right;
+  }
+  
+  .Banana{
+     height: 100%;
+     width: 100%;
+     padding-top: 200px;
+  }
+}

@@ -54,3 +54,68 @@
 .Display-Column-Hidden p {
     color: #485875;
 }
+
+@media (max-width: 600px) {
+        .Display{
+            overflow:auto;
+        }
+        
+        .Display-Column {
+            float: left;
+            width: 20%;
+          }
+        .Display-Column-Right{
+          float:right;
+        }
+        #Display-Img{
+            width: 500px;
+        }
+        .Display-Banana{
+        }
+        .Display-Column-Silhouette{
+            width: 55%;
+        }
+        
+        #Display-Logo{
+            width: 60%;
+            position: absolute;
+            left: 0;
+            margin-left: 3% ;
+            margin-top: 28%;
+        }
+        
+        #Display-AccountIcon{
+            width: 25%;
+            position: absolute;
+            right: 0;
+            margin-right: 10% ;
+            margin-top: 25%;
+        }
+        
+        #Display-FullHealthIcon{
+            width: 25%;
+            position: absolute;
+            left: 0;
+            margin-left: 10% ;
+        }
+        
+        #Display-AddBananaIcon{
+            width: 25%;
+            position: absolute;
+            right: 0;
+            margin-right: 10% ;
+        }
+        .Display-Buttons{
+            position: absolute;
+            bottom: 23%;
+            width:100%;
+        }
+        
+        .Display-Column-Hidden{
+            width: 100%;
+        }
+        
+        .Display-Column-Hidden p {
+            color: #485875;
+        }
+}

@@ -7,3 +7,16 @@
     width:  100%;
     margin-top: 5%;
 }
+
+
+@media (max-width: 600px) {
+    .Silhouette{
+        align-items: center;
+        justify-content: center;
+    }
+    #Silhouette-Img{
+        width: 110%;
+        margin-top: 220px;
+    }
+    
+}

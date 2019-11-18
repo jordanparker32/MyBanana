@@ -134,7 +134,7 @@ class Display extends Component{
                 waterTotal={this.props.waterTotal}
             />
             </div>
-            <div className="Display-Column">
+            <div className="Display-Column Display-Column-Right">
                     <Banana bananaCurrent={this.state.bananaCurrent} bananaTotal={this.state.bananaTotal}/>
                     <div className="Display-Column-Hidden">
 

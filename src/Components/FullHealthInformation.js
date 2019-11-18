@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import '../Stylesheets/FullHealthInformation.css';
-import closeOverlayIcon from '../Assets/Heart Button.png'
+import closeOverlayIcon from '../Assets/Smol Icons-11.png';
 
 class FullHealthInformation extends Component{
     constructor(props){
