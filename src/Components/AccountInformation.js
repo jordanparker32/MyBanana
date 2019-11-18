@@ -22,8 +22,9 @@ class AccountInformation extends Component{
         return(
             <div className="AccountInformation">
             <input id="AccountInformation-CloseOverlay" type="image" alt="X" src={closeOverlayIcon} onClick={this.handleCloseOverlay}/>
-            <h1>Welcome {this.props.username}</h1>
-            <h3>Here's how you're doing today</h3>
+            <br/>
+            <h1>{this.props.username}</h1>
+            <h3>Today's Progress</h3>
             <h4>Bananas: </h4>
             <p>{this.props.bananaCurrent} / {this.props.bananaTotal}</p>
             <h4>Cups of Water:</h4>

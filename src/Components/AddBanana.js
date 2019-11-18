@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 import '../Stylesheets/AddBanana.css';
-import AddBananaIcon from '../Assets/Banana Button.png';
 import Add from '../Assets/Smol Icons-10.png';
 import Minus from '../Assets/Smol Icons-12.png';
 import banana from '../Assets/Banana icon.png';
@@ -106,7 +105,8 @@ class AddBanana extends Component{
                     <input id="AddBanana-UpdateWater-Add" type="image" alt="Account Icon" src={Add} onClick={this.handleUpdateWaterAdd}/>
                     <input id="AddBanana-UpdateWater-Minus" type="image" alt="Account Icon" src={Minus} onClick={this.handleUpdateWaterMinus}/>
                 </div>
-                <div>
+            <br/>
+            <div className="AddBanana-Submit">
                 <button onClick={this.handleUpdateTotals}>Submit</button>
                 </div>
             </div>

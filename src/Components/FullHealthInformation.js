@@ -22,7 +22,9 @@ class FullHealthInformation extends Component{
         return(
             <div className="FullHealthInformation">
             <input id="FullHealthInformation-CloseOverlay" type="image" alt="X" src={closeOverlayIcon} onClick={this.handleCloseOverlay}/>
-            <h1>Today's Full Health Information</h1>
+            <br/>
+            <br/>
+            <h1>Nutritional Information</h1>
             <h3>Bananas:</h3>
             <div className="FullHealthInformation-Grid">
                 <div className="FullHealthInformation-Grid-Left">
@@ -34,6 +36,7 @@ class FullHealthInformation extends Component{
                     <p>Magnesium: {this.props.bananaCurrent * 34} mg</p>
                     <p>Vitamin A: {this.props.bananaCurrent * 81} IU</p>
                     <p>Vitamin C: {this.props.bananaCurrent * 9} mg</p>
+                    
 
                 </div>
                 <div className="FullHealthInformation-Grid-Right">

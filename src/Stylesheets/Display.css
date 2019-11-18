@@ -55,7 +55,8 @@
     color: #485875;
 }
 
-@media (max-width: 600px) {
+/* Iphone X */
+@media (width: 375px) and (height: 812px){
         .Display{
             overflow:auto;
         }
@@ -118,4 +119,273 @@
         .Display-Column-Hidden p {
             color: #485875;
         }
+}
+
+/* Iphone 6/7/8 */
+@media (width: 375px) and (height: 667px){
+    .Display{
+        overflow:auto;
+    }
+    
+    .Display-Column {
+        float: left;
+        width: 20%;
+      }
+    .Display-Column-Right{
+      float:right;
+    }
+    #Display-Img{
+        width: 500px;
+    }
+    .Display-Banana{
+    }
+    .Display-Column-Silhouette{
+        width: 55%;
+    }
+    
+    #Display-Logo{
+        width: 60%;
+        position: absolute;
+        left: 0;
+        margin-left: 3% ;
+        margin-top: 22%;
+    }
+    
+    #Display-AccountIcon{
+        width: 25%;
+        position: absolute;
+        right: 0;
+        margin-right: 10% ;
+        margin-top: 15%;
+    }
+    
+    #Display-FullHealthIcon{
+        width: 25%;
+        position: absolute;
+        left: 0;
+        margin-left: 10% ;
+    }
+    
+    #Display-AddBananaIcon{
+        width: 25%;
+        position: absolute;
+        right: 0;
+        margin-right: 10% ;
+    }
+    .Display-Buttons{
+        position: absolute;
+        bottom: 23%;
+        width:100%;
+    }
+    
+    .Display-Column-Hidden{
+        width: 100%;
+    }
+    
+    .Display-Column-Hidden p {
+        color: #485875;
+    }
+}
+
+/* Iphone 6/7/8 plus and pixel 1/2 */
+@media (width: 414px) and (height: 736px){
+
+    .Display{
+        overflow:auto;
+    }
+    
+    .Display-Column {
+        float: left;
+        width: 20%;
+      }
+    .Display-Column-Right{
+      float:right;
+    }
+    #Display-Img{
+        width: 500px;
+    }
+    .Display-Banana{
+    }
+    .Display-Column-Silhouette{
+        width: 55%;
+    }
+    
+    #Display-Logo{
+        width: 60%;
+        position: absolute;
+        left: 0;
+        margin-left: 3% ;
+        margin-top: 22%;
+    }
+    
+    #Display-AccountIcon{
+        width: 25%;
+        position: absolute;
+        right: 0;
+        margin-right: 10% ;
+        margin-top: 15%;
+    }
+    
+    #Display-FullHealthIcon{
+        width: 25%;
+        position: absolute;
+        left: 0;
+        margin-left: 10% ;
+    }
+    
+    #Display-AddBananaIcon{
+        width: 25%;
+        position: absolute;
+        right: 0;
+        margin-right: 10% ;
+    }
+    .Display-Buttons{
+        position: absolute;
+        bottom: 23%;
+        width:100%;
+    }
+    
+    .Display-Column-Hidden{
+        width: 100%;
+    }
+    
+    .Display-Column-Hidden p {
+        color: #485875;
+    }
+
+}
+
+/*pixel 2 xl and larger devices */
+@media (min-width: 400px) and (max-height: 830px){
+
+    .Display{
+        overflow:auto;
+    }
+    
+    .Display-Column {
+        float: left;
+        width: 20%;
+      }
+    .Display-Column-Right{
+      float:right;
+    }
+    #Display-Img{
+        width: 500px;
+    }
+    .Display-Banana{
+    }
+    .Display-Column-Silhouette{
+        width: 55%;
+    }
+    
+    #Display-Logo{
+        width: 60%;
+        position: absolute;
+        left: 0;
+        margin-left: 3% ;
+        margin-top: 22%;
+    }
+    
+    #Display-AccountIcon{
+        width: 25%;
+        position: absolute;
+        right: 0;
+        margin-right: 10% ;
+        margin-top: 15%;
+    }
+    
+    #Display-FullHealthIcon{
+        width: 25%;
+        position: absolute;
+        left: 0;
+        margin-left: 10% ;
+    }
+    
+    #Display-AddBananaIcon{
+        width: 25%;
+        position: absolute;
+        right: 0;
+        margin-right: 10% ;
+    }
+    .Display-Buttons{
+        position: absolute;
+        bottom: 23%;
+        width:100%;
+    }
+    
+    .Display-Column-Hidden{
+        width: 100%;
+    }
+    
+    .Display-Column-Hidden p {
+        color: #485875;
+    }
+
+}
+
+/*Smaller Devices */
+@media (min-width: 300px) and (max-height: 640px){
+
+    .Display{
+        overflow:auto;
+    }
+    
+    .Display-Column {
+        float: left;
+        width: 20%;
+      }
+    .Display-Column-Right{
+      float:right;
+    }
+    #Display-Img{
+        width: 500px;
+    }
+    .Display-Banana{
+    }
+    .Display-Column-Silhouette{
+        width: 55%;
+    }
+    
+    #Display-Logo{
+        width: 60%;
+        position: absolute;
+        left: 0;
+        margin-left: 3% ;
+        margin-top: 18%;
+    }
+    
+    #Display-AccountIcon{
+        width: 25%;
+        position: absolute;
+        right: 0;
+        margin-right: 10% ;
+        margin-top: 10%;
+    }
+    
+    #Display-FullHealthIcon{
+        width: 25%;
+        position: absolute;
+        left: 0;
+        margin-left: 10% ;
+    }
+    
+    #Display-AddBananaIcon{
+        width: 25%;
+        position: absolute;
+        right: 0;
+        margin-right: 10% ;
+    }
+    .Display-Buttons{
+        position: absolute;
+        bottom: 23%;
+        width:100%;
+    }
+    
+    .Display-Column-Hidden{
+        width: 100%;
+    }
+    
+    .Display-Column-Hidden p {
+        color: #485875;
+    }
 }
