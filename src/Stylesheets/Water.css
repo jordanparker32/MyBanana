@@ -94,3 +94,101 @@
    }
 
 }
+
+
+/* (1366x768) WXGA Display */
+@media (max-height: 768px) and (min-width: 1366px){
+   .Water-Img{
+      width: 22%;
+      margin: auto;
+      margin-right: 0;
+   
+   }
+   
+   .Water{
+      height: 100%;
+      width: 100%;
+      padding-top: 33%;
+   }
+}
+
+/* (1280x1024) SXGA Display */
+@media (min-width: 1280px) and  (max-height: 1024px) {
+   .Water-Img{
+      width: 20.5%;
+      margin: auto;
+      margin-right: 0;
+   
+   }
+   
+   .Water{
+      height: 100%;
+      width: 100%;
+      padding-top: 33%;
+   }
+}
+
+/* (1440x900) WXGA+ Display */
+@media (min-width: 1440px) and (max-height: 900px) {
+   .Water-Img{
+      width: 23%;
+      margin: auto;
+      margin-right: 0;
+   
+   }
+   
+   .Water{
+      height: 100%;
+      width: 100%;
+      padding-top: 33%;
+   }
+}
+
+/* (1680x1050) WSXGA+ Display */
+@media (min-width: 1680px) and (max-height: 1050px) {
+   .Water-Img{
+      width: 22%;
+      margin: auto;
+      margin-right: 0;
+   
+   }
+   
+   .Water{
+      height: 100%;
+      width: 100%;
+      padding-top: 33%;
+   }
+}
+
+/* (1920x1080) Full HD Display */
+@media (min-width: 1920px) and (max-height: 1080px)  {
+   .Water-Img{
+      width: 23%;
+      margin: auto;
+      margin-right: 0;
+   
+   }
+   
+   .Water{
+      height: 100%;
+      width: 100%;
+      padding-top: 29%;
+      zoom: 55%;
+   }
+}
+
+/* (1600x900) HD+ Display */
+@media(min-width: 1600px) and (max-height: 900px){
+   .Water-Img{
+      width: 22%;
+      margin: auto;
+      margin-right: 0;
+   
+   }
+   
+   .Water{
+      height: 100%;
+      width: 100%;
+      padding-top: 29%;
+   }
+}

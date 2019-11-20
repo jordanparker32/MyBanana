@@ -93,3 +93,99 @@
       padding-top: 120px;
    }
 }
+
+
+
+
+
+/* (1366x768) WXGA Display */
+@media (max-height: 768px) and (max-width: 1366px){
+   .Banana-Img{
+      width: 22%;
+      margin: auto;
+      margin-left: 0;
+   }
+   
+   .Banana{
+     height: 100%;
+     width: 100%;
+     padding-top: 33%;
+   }
+   
+}
+
+/* (1280x1024) SXGA Display */
+@media (min-width: 1280px) and  (max-height: 1024px) {
+   .Banana-Img{
+      width: 21.2%;
+      margin: auto;
+      margin-left: 0;
+   }
+   
+   .Banana{
+     height: 100%;
+     width: 100%;
+     padding-top: 33%;
+   }
+}
+
+/* (1440x900) WXGA+ Display */
+@media (min-width: 1440px) and (max-height: 900px) {
+   .Banana-Img{
+      width: 23%;
+      margin: auto;
+      margin-left: 0;
+   }
+   
+   .Banana{
+     height: 100%;
+     width: 100%;
+     padding-top: 33%;
+   }
+}
+
+/* (1680x1050) WSXGA+ Display */
+@media (min-width: 1680px) and (max-height: 1050px) {
+   .Banana-Img{
+      width: 23%;
+      margin: auto;
+      margin-left: 0;
+   }
+   
+   .Banana{
+     height: 100%;
+     width: 100%;
+     padding-top: 33%;
+   }
+}
+
+/* (1920x1080) Full HD Display */
+@media (min-width: 1920px) and (max-height: 1080px)  {
+   .Banana-Img{
+      width: 23%;
+      margin: auto;
+      margin-left: 0;
+   }
+   
+   .Banana{
+     height: 100%;
+     width: 100%;
+     padding-top: 29%;
+     zoom: 55%;
+   }
+}
+
+/* (1600x900) HD+ Display */
+@media(min-width: 1600px) and (max-height: 900px) {
+   .Banana-Img{
+      width: 22%;
+      margin: auto;
+      margin-left: 0;
+   }
+   
+   .Banana{
+     height: 100%;
+     width: 100%;
+     padding-top: 29%;
+   }
+}

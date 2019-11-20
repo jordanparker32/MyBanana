@@ -3,20 +3,19 @@
         display: none; /* Hidden by default */
         width: 40vw; /* Full width (cover the whole page) */
         height: 70vh; /* Full height (cover the whole page) */
-        max-width: 500px;
-        max-height: 700px;
         top: 0;
         margin-left: 32%;
         margin-top: 5%;
         bottom: 0;
-        background-color: rgba(255, 165, 48, 0.952); /* Black background with opacity */
+        background-color: #3D405B; /* Black background with opacity */
         
         z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
         cursor: pointer; /* Add a pointer on hover */
         display: block;
-        border: 4px solid #4D9DE0;
+        border: 4px solid #FCEC52;
         /* rgb(49, 59, 78, 0.9) */
         border-radius: 25px;
+        color: white;
     
 }
 #FullHealthInformation-CloseOverlay{
@@ -56,14 +55,15 @@
         margin-left: 10%;
         margin-top: 15%;
         bottom: 0;
-        background-color: rgba(255, 165, 48, 0.952); /* Black background with opacity */
+        background-color: #3D405B; /* Black background with opacity */
         
         z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
         cursor: pointer; /* Add a pointer on hover */
         display: block;
-        border: 4px solid #4D9DE0;
+        border: 4px solid #FCEC52;
         /* rgb(49, 59, 78, 0.9) */
         border-radius: 25px;
+        color: white;
     }
     #FullHealthInformation-CloseOverlay{
         margin-right: 0;
@@ -103,14 +103,15 @@
         margin-left: 10%;
         margin-top: 15%;
         bottom: 0;
-        background-color: rgba(255, 165, 48, 0.952); /* Black background with opacity */
+        background-color: #3D405B; /* Black background with opacity */
         
         z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
         cursor: pointer; /* Add a pointer on hover */
         display: block;
-        border: 4px solid #4D9DE0;
+        border: 4px solid #FCEC52;
         /* rgb(49, 59, 78, 0.9) */
         border-radius: 25px;
+        color: white;
     }
     #FullHealthInformation-CloseOverlay{
         margin-right: 0;
@@ -141,7 +142,7 @@
 }
 
    /* Iphone 6/7/8 plus  Pixel 1/2  Pixel 2XL*/
-   @media (min-width: 400px) and (max-height: 830px){
+@media (min-width: 400px) and (max-height: 830px){
     .FullHealthInformation{
         position: fixed; /* Sit on top of the page content */
         display: none; /* Hidden by default */
@@ -151,12 +152,12 @@
         margin-left: 10%;
         margin-top: 15%;
         bottom: 0;
-        background-color: rgba(255, 165, 48, 0.952); /* Black background with opacity */
+        background-color: #3D405B; /* Black background with opacity */
         
         z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
         cursor: pointer; /* Add a pointer on hover */
         display: block;
-        border: 4px solid #4D9DE0;
+        border: 4px solid #FCEC52;
         /* rgb(49, 59, 78, 0.9) */
         border-radius: 25px;
     }
@@ -200,14 +201,15 @@
         margin-left: 10%;
         margin-top: 5%;
         bottom: 0;
-        background-color: rgba(255, 165, 48, 0.952); /* Black background with opacity */
+        background-color: #3D405B; /* Black background with opacity */
         
         z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
         cursor: pointer; /* Add a pointer on hover */
         display: block;
-        border: 4px solid #4D9DE0;
+        border: 4px solid #FCEC52;
         /* rgb(49, 59, 78, 0.9) */
         border-radius: 25px;
+        color: white;
     }
     #FullHealthInformation-CloseOverlay{
         margin-right: 0;
@@ -241,4 +243,301 @@
         font-weight: 700;
     }
 
+}
+
+
+
+/* (1366x768) WXGA Display */
+@media (max-height: 768px) and (min-width: 1366px) {
+    .FullHealthInformation{
+        position: fixed; /* Sit on top of the page content */
+        display: none; /* Hidden by default */
+        width: 35vw; /* Full width (cover the whole page) */
+        height: 70vh; /* Full height (cover the whole page) */
+        top: 0;
+        margin-left: 32%;
+        margin-top: 5%;
+        bottom: 0;
+        background-color: #3D405B; /* Black background with opacity */
+        
+        z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+        cursor: pointer; /* Add a pointer on hover */
+        display: block;
+        border: 4px solid #FCEC52;
+        /* rgb(49, 59, 78, 0.9) */
+        border-radius: 25px;
+        color: white;
+    
+}
+#FullHealthInformation-CloseOverlay{
+    margin-right: 0;
+    width: 10%;
+    float: right;
+}
+
+.FullHealthInformation-Grid{
+    display: flex;
+    justify-content: center;
+}
+
+.FullHealthInformation-Grid-Left{
+    width: 50%;
+    margin-right: 10%;
+    text-align: right;
+}
+.FullHealthInformation-Grid-Right{
+    width: 50%;
+    float: right;
+    text-align: left;
+
+}
+.FullHealthInformation p{
+    font-style: oblique;
+}
+}
+ 
+/* (1280x1024) SXGA Display */
+@media (min-width: 1280px) and  (max-height: 1024px) {
+    .FullHealthInformation{
+        position: fixed; /* Sit on top of the page content */
+        display: none; /* Hidden by default */
+        width: 35vw; /* Full width (cover the whole page) */
+        height: 75vh; /* Full height (cover the whole page) */
+        top: 0;
+        margin-left: 35.5%;
+        margin-top: 8%;
+        bottom: 0;
+        background-color: #3D405B; /* Black background with opacity */
+        
+        z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+        cursor: pointer; /* Add a pointer on hover */
+        display: block;
+        border: 4px solid #FCEC52;
+        /* rgb(49, 59, 78, 0.9) */
+        border-radius: 25px;
+        color: white;
+    
+}
+#FullHealthInformation-CloseOverlay{
+    margin-right: 0;
+    width: 10%;
+    float: right;
+}
+
+.FullHealthInformation-Grid{
+    display: flex;
+    justify-content: center;
+}
+
+.FullHealthInformation-Grid-Left{
+    width: 50%;
+    margin-right: 10%;
+    text-align: right;
+}
+.FullHealthInformation-Grid-Right{
+    width: 50%;
+    float: right;
+    text-align: left;
+
+}
+.FullHealthInformation p{
+    font-style: oblique;
+}
+}
+ 
+/* (1440x900) WXGA+ Display */
+@media (min-width: 1440px) and (max-height: 900px){
+    .FullHealthInformation{
+        position: fixed; /* Sit on top of the page content */
+        display: none; /* Hidden by default */
+        width: 35vw; /* Full width (cover the whole page) */
+        height: 65vh; /* Full height (cover the whole page) */
+        top: 0;
+        margin-left: 32.5%;
+        margin-top: 8%;
+        bottom: 0;
+        background-color: #3D405B; /* Black background with opacity */
+        
+        z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+        cursor: pointer; /* Add a pointer on hover */
+        display: block;
+        border: 4px solid #FCEC52;
+        /* rgb(49, 59, 78, 0.9) */
+        border-radius: 25px;
+        color: white;
+    
+}
+#FullHealthInformation-CloseOverlay{
+    margin-right: 0;
+    width: 10%;
+    float: right;
+}
+
+.FullHealthInformation-Grid{
+    display: flex;
+    justify-content: center;
+}
+
+.FullHealthInformation-Grid-Left{
+    width: 50%;
+    margin-right: 10%;
+    text-align: right;
+}
+.FullHealthInformation-Grid-Right{
+    width: 50%;
+    float: right;
+    text-align: left;
+
+}
+.FullHealthInformation p{
+    font-style: oblique;
+}
+}
+ 
+/* (1680x1050) WSXGA+ Display */
+@media (min-width: 1680px) and (max-height: 1050px){
+    .FullHealthInformation{
+        position: fixed; /* Sit on top of the page content */
+        display: none; /* Hidden by default */
+        width: 30vw; /* Full width (cover the whole page) */
+        height: 65vh; /* Full height (cover the whole page) */
+        top: 0;
+        margin-left: 34.5%;
+        margin-top: 8%;
+        bottom: 0;
+        background-color: #3D405B; /* Black background with opacity */
+        
+        z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+        cursor: pointer; /* Add a pointer on hover */
+        display: block;
+        border: 4px solid #FCEC52;
+        /* rgb(49, 59, 78, 0.9) */
+        border-radius: 25px;
+        color: white;
+    
+}
+#FullHealthInformation-CloseOverlay{
+    margin-right: 0;
+    width: 10%;
+    float: right;
+}
+
+.FullHealthInformation-Grid{
+    display: flex;
+    justify-content: center;
+}
+
+.FullHealthInformation-Grid-Left{
+    width: 50%;
+    margin-right: 10%;
+    text-align: right;
+}
+.FullHealthInformation-Grid-Right{
+    width: 50%;
+    float: right;
+    text-align: left;
+
+}
+.FullHealthInformation p{
+    font-style: oblique;
+}
+}
+ 
+/* (1920x1080) Full HD Display */
+@media (min-width: 1920px) and (max-height: 1080px) {
+    .FullHealthInformation{
+        position: fixed; /* Sit on top of the page content */
+        display: none; /* Hidden by default */
+        width: 30vw; /* Full width (cover the whole page) */
+        height: 55vh; /* Full height (cover the whole page) */
+        top: 0;
+        margin-left: 35%;
+        margin-top: 8%;
+        bottom: 0;
+        background-color: #3D405B; /* Black background with opacity */
+        
+        z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+        cursor: pointer; /* Add a pointer on hover */
+        display: block;
+        border: 4px solid #FCEC52;
+        /* rgb(49, 59, 78, 0.9) */
+        border-radius: 25px;
+        color: white;
+        zoom: 55%;
+    
+}
+#FullHealthInformation-CloseOverlay{
+    margin-right: 0;
+    width: 10%;
+    float: right;
+}
+
+.FullHealthInformation-Grid{
+    display: flex;
+    justify-content: center;
+}
+
+.FullHealthInformation-Grid-Left{
+    width: 50%;
+    margin-right: 10%;
+    text-align: right;
+}
+.FullHealthInformation-Grid-Right{
+    width: 50%;
+    float: right;
+    text-align: left;
+
+}
+.FullHealthInformation p{
+    font-style: oblique;
+}
+}
+ 
+/* (1600x900) HD+ Display */
+@media(min-width: 1600px) and (max-height: 900px) {
+    .FullHealthInformation{
+        position: fixed; /* Sit on top of the page content */
+        display: none; /* Hidden by default */
+        width: 30vw; /* Full width (cover the whole page) */
+        height: 65vh; /* Full height (cover the whole page) */
+        top: 0;
+        margin-left: 35%;
+        margin-top: 8%;
+        bottom: 0;
+        background-color: #3D405B; /* Black background with opacity */
+        
+        z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+        cursor: pointer; /* Add a pointer on hover */
+        display: block;
+        border: 4px solid #FCEC52;
+        /* rgb(49, 59, 78, 0.9) */
+        border-radius: 25px;
+        color: white;
+    
+}
+#FullHealthInformation-CloseOverlay{
+    margin-right: 0;
+    width: 10%;
+    float: right;
+}
+
+.FullHealthInformation-Grid{
+    display: flex;
+    justify-content: center;
+}
+
+.FullHealthInformation-Grid-Left{
+    width: 50%;
+    margin-right: 10%;
+    text-align: right;
+}
+.FullHealthInformation-Grid-Right{
+    width: 50%;
+    float: right;
+    text-align: left;
+
+}
+.FullHealthInformation p{
+    font-style: oblique;
+}
 }

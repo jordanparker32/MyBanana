@@ -6,7 +6,7 @@ import Banana from './Banana';
 import Water from './Water';
 import AddBanana from './AddBanana';
 import logo from '../Assets/My Banana Logotype-09.png';
-import AccountInfoIcon from '../Assets/Member Icon.png';
+import AccountInfoIcon from '../Assets/Profile Icon Updated-06.png';
 import FullHealthIcon from '../Assets/Heart Button.png';
 import AddBananaIcon from '../Assets/Banana Button.png'
 
