@@ -1,4 +1,4 @@
-.Silhouette{
+/* .Silhouette{
     align-items: center;
     justify-content: center;
     
@@ -6,24 +6,30 @@
 #Silhouette-Img{
     width:  100%;
     margin-top: 5%;
-}
+} */
 
 
  /* Iphone X */
- @media (width: 375px) and (height: 812px){
+ @media only screen 
+ and (min-device-width: 375px) 
+ and (max-device-height: 812px) 
+ and (-webkit-min-device-pixel-ratio: 3) {
     .Silhouette{
         align-items: center;
         justify-content: center;
     }
     #Silhouette-Img{
-        width: 110%;
-        margin-top: 220px;
+        width: 120%;
+        margin-top: 190px;
     }
     
 }
 
 /* Iphone 6/7/8 */
-@media (width: 375px) and (height: 667px){
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-height: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
     .Silhouette{
         align-items: center;
         justify-content: center;
@@ -35,7 +41,10 @@
 }
 
     /* Iphone 6/7/8 plus  Pixel 1/2  Pixel 2XL*/
-@media (min-width: 400px) and (max-height: 830px){
+@media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-height: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3){
     .Silhouette{
         align-items: center;
         justify-content: center;
@@ -47,7 +56,10 @@
 }
 
 /*Pixel 2XL*/
-@media (min-width: 400px) and (min-height: 800px){
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
     .Silhouette{
         align-items: center;
         justify-content: center;
@@ -60,7 +72,10 @@
 }
 
 /*Smaller Devices */
-@media (min-width: 300px) and (max-height: 640px){
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-height: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
     .Silhouette{
         align-items: center;
         justify-content: center;
@@ -71,6 +86,23 @@
     }
 }
 
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    .Silhouette{
+        align-items: center;
+        justify-content: center;
+    }
+    #Silhouette-Img{
+        width: 110%;
+        margin-top: 145px;
+    }
+  }
 
 /* (1366x768) WXGA Display */
 @media (max-height: 768px) and (min-width: 1366px){
