@@ -484,7 +484,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
 
 
 /* (1366x768) WXGA Display */
-@media (max-height: 768px) and (min-width: 1366px)  {
+@media screen and (min-width: 1366px)  {
     .Display{
         overflow:auto;
         zoom: 79%;
@@ -545,7 +545,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
 }
  
 /* (1280x1024) SXGA Display */
-@media (min-width: 1280px) and  (max-height: 1024px) {
+@media  screen and (min-width: 1280px) {
     .Display{
         overflow:auto;
     }
@@ -605,7 +605,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
 }
  
 /* (1440x900) WXGA+ Display */
-@media (min-width: 1440px) and (max-height: 900px) {
+@media screen and (min-width: 1440px) {
     .Display{
         overflow:auto;
     }
@@ -665,7 +665,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
 }
  
 /* (1680x1050) WSXGA+ Display */
-@media (min-width: 1680px) and (max-height: 1050px) {
+@media  screen and (min-width: 1680px) {
     .Display{
         overflow:auto;
     }
@@ -725,7 +725,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
 }
  
 /* (1920x1080) Full HD Display */
-@media (min-width: 1920px) and (max-height: 1080px){
+@media screen and (min-width: 1920px){
     .Display{
         overflow:auto;
         zoom: 55%;
@@ -786,7 +786,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
 }
  
 /* (1600x900) HD+ Display */
-@media(min-width: 1600px) and (max-height: 900px) {
+@media screen and (min-width: 1600px) {
     .Display{
         overflow:auto;
     }
@@ -844,6 +844,11 @@ and (-webkit-min-device-pixel-ratio: 3) {
         color: #485875;
     }
 }
+
+
+
+
+
 
 
 

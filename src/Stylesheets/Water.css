@@ -134,7 +134,7 @@
   }
 
 /* (1366x768) WXGA Display */
-@media (max-height: 768px) and (min-width: 1366px){
+@media screen and (min-width: 1366px){
    .Water-Img{
       width: 22%;
       margin: auto;
@@ -150,7 +150,7 @@
 }
 
 /* (1280x1024) SXGA Display */
-@media (min-width: 1280px) and  (max-height: 1024px) {
+@media  screen and (min-width: 1280px) {
    .Water-Img{
       width: 20.5%;
       margin: auto;
@@ -161,12 +161,12 @@
    .Water{
       height: 100%;
       width: 100%;
-      padding-top: 33%;
+      padding-top: 35%;
    }
 }
 
 /* (1440x900) WXGA+ Display */
-@media (min-width: 1440px) and (max-height: 900px) {
+@media screen and (min-width: 1440px){
    .Water-Img{
       width: 23%;
       margin: auto;
@@ -182,7 +182,7 @@
 }
 
 /* (1680x1050) WSXGA+ Display */
-@media (min-width: 1680px) and (max-height: 1050px) {
+@media  screen and (min-width: 1680px) {
    .Water-Img{
       width: 22%;
       margin: auto;
@@ -198,7 +198,7 @@
 }
 
 /* (1920x1080) Full HD Display */
-@media (min-width: 1920px) and (max-height: 1080px)  {
+@media screen and (min-width: 1920px)  {
    .Water-Img{
       width: 23%;
       margin: auto;
@@ -215,7 +215,7 @@
 }
 
 /* (1600x900) HD+ Display */
-@media(min-width: 1600px) and (max-height: 900px){
+@media screen and (min-width: 1600px){
    .Water-Img{
       width: 22%;
       margin: auto;
@@ -229,3 +229,5 @@
       padding-top: 29%;
    }
 }
+
+

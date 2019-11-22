@@ -71,7 +71,7 @@
     }
     .AccountInformation h1{
         text-align: center;
-        padding-left: 20%;
+        padding-left: 18%;
         padding-bottom: 0;
         font-style: oblique;
     }
@@ -86,7 +86,7 @@
         position: fixed; /* Sit on top of the page content */
         display: none; /* Hidden by default */
         width: 70%; /* Full width (cover the whole page) */
-        height: 45%; /* Full height (cover the whole page) */
+        height: 46%; /* Full height (cover the whole page) */
         top: 0;
         margin-left: 15%;
         margin-top: 25%;
@@ -111,7 +111,7 @@
 
     .AccountInformation h1{
         text-align: center;
-        padding-left: 20%;
+        padding-left: 5%;
         padding-bottom: 0;
         font-style: oblique;
     }
@@ -166,7 +166,7 @@
         position: fixed; /* Sit on top of the page content */
         display: none; /* Hidden by default */
         width: 70%; /* Full width (cover the whole page) */
-        height: 52%; /* Full height (cover the whole page) */
+        height: 54%; /* Full height (cover the whole page) */
         top: 0;
         margin-left: 15%;
         margin-top: 15%;
@@ -244,15 +244,15 @@
 
 
 /* (1366x768) WXGA Display */
-@media (max-height: 768px) and (min-width: 1366px){
+@media screen and (min-width: 1366px){
     .AccountInformation{
         position: fixed; /* Sit on top of the page content */
         display: none; /* Hidden by default */
-        width: 20vw; /* Full width (cover the whole page) */
-        height: 45vh; /* Full height (cover the whole page) */
+        width: 15%; /* Full width (cover the whole page) */
+        height: 30%; /* Full height (cover the whole page) */
         top: 0;
-        margin-left: 40%;
-        margin-top: 5%;
+        margin-left: 43%;
+        margin-top: 8%;
         bottom: 0;
         background-color: #3D405B; /* Black background with opacity */
         
@@ -263,7 +263,7 @@
         /* rgb(49, 59, 78, 0.9) */
         border-radius: 25px;
         color: white;
-        zoom: 79%;
+        font-size: large;
     }
     #AccountInformation-CloseOverlay{
         margin-top: 5px;
@@ -287,14 +287,14 @@
 }
  
 /* (1280x1024) SXGA Display */
-@media (min-width: 1280px) and  (max-height: 1024px) {
+@media  screen and (min-width: 1280px) {
     .AccountInformation{
         position: fixed; /* Sit on top of the page content */
         display: none; /* Hidden by default */
-        width: 20vw; /* Full width (cover the whole page) */
-        height: 45vh; /* Full height (cover the whole page) */
+        width: 20%; /* Full width (cover the whole page) */
+        height: 34%; /* Full height (cover the whole page) */
         top: 0;
-        margin-left: 43.5%;
+        margin-left: 40%;
         margin-top: 8%;
         bottom: 0;
         background-color: #3D405B; /* Black background with opacity */
@@ -316,11 +316,13 @@
     
     .AccountInformation p{
         font-style: oblique;
+        
     }
     .AccountInformation h1{
         text-align: center;
-        padding-left: 51px;
+        padding-left: 14.5%;
         padding-bottom: 0;
+        
     }
     
     .AccountInformation h1{
@@ -329,14 +331,14 @@
 }
  
 /* (1440x900) WXGA+ Display */
-@media (min-width: 1440px) and (max-height: 900px){
+@media screen and (min-width: 1440px){
     .AccountInformation{
         position: fixed; /* Sit on top of the page content */
         display: none; /* Hidden by default */
-        width: 18vw; /* Full width (cover the whole page) */
-        height: 40vh; /* Full height (cover the whole page) */
+        width: 20%; /* Full width (cover the whole page) */
+        height: 40%; /* Full height (cover the whole page) */
         top: 0;
-        margin-left: 41%;
+        margin-left: 43%;
         margin-top: 8%;
         bottom: 0;
         background-color: #3D405B; /* Black background with opacity */
@@ -348,6 +350,7 @@
         /* rgb(49, 59, 78, 0.9) */
         border-radius: 25px;
         color: white;
+        font-size: x-large;
     }
     #AccountInformation-CloseOverlay{
         margin-top: 5px;
@@ -362,7 +365,7 @@
     }
     .AccountInformation h1{
         text-align: center;
-        padding-left:45.25px;
+        padding-left:15%;
         padding-bottom: 0;
     }
     
@@ -372,14 +375,14 @@
 }
  
 /* (1680x1050) WSXGA+ Display */
-@media (min-width: 1680px) and (max-height: 1050px) {
+@media  screen and (min-width: 1680px) {
     .AccountInformation{
         position: fixed; /* Sit on top of the page content */
         display: none; /* Hidden by default */
-        width: 18vw; /* Full width (cover the whole page) */
-        height: 40vh; /* Full height (cover the whole page) */
+        width: 15%; /* Full width (cover the whole page) */
+        height: 30%; /* Full height (cover the whole page) */
         top: 0;
-        margin-left: 41%;
+        margin-left: 43%;
         margin-top: 8%;
         bottom: 0;
         background-color: #3D405B; /* Black background with opacity */
@@ -415,14 +418,14 @@
 }
  
 /* (1920x1080) Full HD Display */
-@media (min-width: 1920px) and (max-height: 1080px)  {
+@media screen and (min-width: 1920px) {
     .AccountInformation{
         position: fixed; /* Sit on top of the page content */
         display: none; /* Hidden by default */
-        width: 18vw; /* Full width (cover the whole page) */
-        height: 35vh; /* Full height (cover the whole page) */
+        width: 15%; /* Full width (cover the whole page) */
+        height: 30%; /* Full height (cover the whole page) */
         top: 0;
-        margin-left: 41.25%;
+        margin-left: 43%;
         margin-top: 8%;
         bottom: 0;
         background-color: #3D405B; /* Black background with opacity */
@@ -434,7 +437,7 @@
         /* rgb(49, 59, 78, 0.9) */
         border-radius: 25px;
         color: white;
-        zoom: 55%;
+        font-size: x-large;
     }
     #AccountInformation-CloseOverlay{
         margin-top: 5px;
@@ -459,14 +462,14 @@
 }
  
 /* (1600x900) HD+ Display */
-@media(min-width: 1600px) and (max-height: 900px) {
+@media screen and (min-width: 1600px) {
     .AccountInformation{
         position: fixed; /* Sit on top of the page content */
         display: none; /* Hidden by default */
-        width: 18vw; /* Full width (cover the whole page) */
-        height: 35vh; /* Full height (cover the whole page) */
+        width: 15%; /* Full width (cover the whole page) */
+        height: 35%; /* Full height (cover the whole page) */
         top: 0;
-        margin-left: 41.25%;
+        margin-left: 42%;
         margin-top: 8%;
         bottom: 0;
         background-color: #3D405B; /* Black background with opacity */
@@ -492,7 +495,7 @@
     }
     .AccountInformation h1{
         text-align: center;
-        padding-left:45.25px;
+        padding-left:5%;
         padding-bottom: 0;
     }
     
@@ -500,3 +503,4 @@
         font-style: oblique;
     }
 }
+
